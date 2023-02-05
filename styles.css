@@ -4,4 +4,19 @@
 
 body {
     margin: 0;
+    background-image: url(./images/bg-stars.svg);
+    background-color: hsl(235, 16%, 14%);
+}
+
+/* Layout */
+
+
+/* Hill background pattern */
+svg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    width: 100%;
 }
