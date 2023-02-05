@@ -6,9 +6,29 @@ body {
     margin: 0;
     background-image: url(./images/bg-stars.svg);
     background-color: hsl(235, 16%, 14%);
+    font-size: 1rem;
+    font-family: 'Red Hat Text', sans-serif;
+}
+
+/* Typography */
+.title,
+.subtitle,
+.attribution {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.title {
+    color: hsl(0, 0%, 100%);
+}
+
+.subtitle,
+.attribution {
+    color: hsl(236, 21%, 26%);
 }
 
 /* Layout */
+
 
 
 /* Hill background pattern */
