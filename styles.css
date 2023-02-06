@@ -8,6 +8,11 @@ body {
     background-color: hsl(235, 16%, 14%);
     font-size: 1rem;
     font-family: 'Red Hat Text', sans-serif;
+    min-height: 100vh;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
 }
 
 /* Typography */
@@ -15,20 +20,34 @@ body {
 .subtitle,
 .attribution {
     text-transform: uppercase;
-    letter-spacing: 5px;
+    letter-spacing: 10px;
+    text-align: center;
 }
 
 .title {
     color: hsl(0, 0%, 100%);
+    font-size: 1.5rem;
+    margin-top: 4em;
 }
 
 .subtitle,
 .attribution {
-    color: hsl(236, 21%, 26%);
+    color: hsl(237, 18%, 59%);
 }
 
 /* Layout */
 
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.countdown {
+
+    display: flex;
+    justify-content: space-between;
+}
 
 
 /* Hill background pattern */

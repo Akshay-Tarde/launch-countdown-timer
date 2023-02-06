@@ -19,7 +19,7 @@ The designs were created to the following widths:
 - White: hsl(0, 0%, 100%) // title
 - Dark desaturated blue: hsl(236, 21%, 26%) // subtitle 
 - Very dark blue: hsl(235, 16%, 14%) // Background color
-- Very dark (mostly black) blue: hsl(234, 17%, 12%)
+- Very dark (mostly black) blue: hsl(234, 17%, 12%)  // card shadow
 
 ## Typography
 
