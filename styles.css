@@ -26,12 +26,13 @@ body {
 
 .title {
     color: hsl(0, 0%, 100%);
-    font-size: 1.5rem;
-    margin-top: 4em;
+    font-size: 1.2rem;
+    margin: 4em 0;
 }
 
 .subtitle,
 .attribution {
+    font-size: .8rem;
     color: hsl(237, 18%, 59%);
 }
 
@@ -39,15 +40,24 @@ body {
 
 
 .container {
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
 }
 
 .countdown {
-
     display: flex;
     justify-content: space-between;
 }
+
+/* Numbers component */
+.number-block {
+    padding: 5em;
+    background-color: hsl(236, 21%, 26%);
+    box-shadow: 0 10px 0 hsl(234, 17%, 12%);
+    border-radius: 5px;
+    margin-bottom: 1em;
+}
+
 
 
 /* Hill background pattern */
