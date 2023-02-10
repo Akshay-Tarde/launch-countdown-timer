@@ -29,6 +29,7 @@ Users should be able to:
 Desktop Layout
 ![](./screenshots/desktop.png)
 
+Mobile Layout
 ![](./screenshots/mobile.png)
 
 ### Links
@@ -61,4 +62,4 @@ Future work would be to implement the bonus part of this challenge, i.e., to add
 ## Author
 
 - Frontend Mentor - [@Akshay-Tarde](https://www.frontendmentor.io/profile/Akshay-Tarde)
-- Twitter - [@_4kshay_](https://twitter.com/_4kshay_)
+- Twitter - [@\_4kshay\_](https://twitter.com/_4kshay_)
