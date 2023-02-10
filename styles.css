@@ -59,11 +59,10 @@ body {
     background-color: hsl(236, 21%, 26%);
     box-shadow: 0 10px 0 hsl(234, 17%, 12%);
     border-radius: 5px;
-    min-width: 181px;
-    max-width: 181px;
+    min-width: 175px;
 
     color: hsl(345, 95%, 68%);
-    font-size: 5rem;
+    font-size: 4rem;
     text-align: center;
 }
 
@@ -83,4 +82,30 @@ svg {
 
 .footer {
     margin-top: 12em;
+}
+
+/* Media queries */
+/* @media (max-width: 900px) {
+
+    .number-block,
+    .subtitle {
+        font-size: 2rem;
+    }
+} */
+
+@media (max-width: 1000px) {
+    .number-block {
+        font-size: 2rem;
+        min-width: auto;
+        padding: .5em;
+    }
+
+    .subtitle {
+        font-size: .5rem;
+        letter-spacing: 4px;
+    }
+
+    .countdown {
+        flex-wrap: wrap;
+    }
 }
