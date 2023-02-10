@@ -81,17 +81,21 @@ svg {
 /* footer */
 
 .footer {
-    margin-top: 12em;
+    margin-top: 4em;
+}
+
+.icons {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.icon {
+    transform: scale(2);
+    margin: 0 1em;
+    color: hsl(237, 18%, 59%);
 }
 
 /* Media queries */
-/* @media (max-width: 900px) {
-
-    .number-block,
-    .subtitle {
-        font-size: 2rem;
-    }
-} */
 
 @media (max-width: 1000px) {
     .number-block {
