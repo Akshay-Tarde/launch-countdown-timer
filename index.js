@@ -4,7 +4,7 @@ const hours = document.querySelector('.hours');
 const minutes = document.querySelector('.minutes');
 const seconds = document.querySelector('.seconds');
 
-const starting_days = 5;
+const starting_days = 14;
 let total_time = starting_days * 24 * 60 * 60 + 10;
 // let total_time = 86420;
 setInterval(countdown, 1000);
